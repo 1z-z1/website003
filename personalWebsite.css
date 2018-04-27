@@ -120,44 +120,6 @@ Notes:
 	/* No styling needed */
 }
 
-.content .inner{ /* Main paragraph section */
-	/* height: 824px; */
-	width: 850px;
-	text-align: center;
-	font-size: 12px;
-	border: 1px solid rgb(0,255,255);
-}
-
-.content .topContain{ /* Main paragraph section */
-	height: 200px;
-	width: 850px;
-	text-align: center;
-	font-size: 12px;
-	border: 0px solid rgb(0,255,255);
-}
-
-.content .centerContain{
-	border: 0px solid rgb(0,255,255);
-	height: 402px;
-	width: 850px;
-}
-
-.content .bottomContain{ /* Main paragraph section */
-	height: 210px;
-	width: 850px;
-	text-align: center;
-	font-size: 12px;
-	border: 0px solid rgb(0,255,255);	
-}
-
-.content .bottomContain p{
-	bottom: 0;
-}
-
-/* 
-Notes:
-	-Mess around with moving text to right or left.
-*/
 +---------------------------------------------------------------------------+
 +---------------------------------------------------------------------------+
 | /* Spacing; Bottom of page */						    | 
@@ -238,4 +200,5 @@ Notes:
 Notes:
 	-
 */
+
 

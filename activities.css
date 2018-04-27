@@ -17,7 +17,7 @@
 }
 
 .content .topContain{ /* Main paragraph section */
-	height: 200px;
+	height: 470px;
 	width: 850px;
 	text-align: center;
 	font-size: 12px;
@@ -25,13 +25,13 @@
 }
 
 .content .centerContain{
-	border: 0px solid rgb(0,255,255);
-	height: 402px;
-	width: 850px;
+	border: 1px solid rgb(0,255,255);
+	height: 350px;
+	width: 848px;
 }
 
 .content .bottomContain{ /* Main paragraph section */
-	height: 210px;
+	height: 0px;
 	width: 850px;
 	text-align: center;
 	font-size: 12px;
