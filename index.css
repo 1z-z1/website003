@@ -8,14 +8,14 @@
 
 .content .centerContain .leftText{
 	float: left;
-	border: 1px solid rgb(0,255,255);
+	border: 0px solid rgb(0,255,255);
 	height: 400px;
 	width: 219px;
 }
 
 .content .centerContain .rightText{
 	float: right;
-	border: 1px solid rgb(0,255,255);
+	border: 0px solid rgb(0,255,255);
 	height: 400px;
 	width: 219px;
 }
