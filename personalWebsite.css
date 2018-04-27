@@ -1,0 +1,229 @@
+@charset "utf-8";
+html{
+	background: rgb(0,0,0);
+	margin: 0 auto;
+	width: 940px;
+	border: 1px solid rgb(0,0,0)
+	/* max-width: 925px; */ /* <-Disabled for more persise control of section sizing */
+	/* min-width: 925px; */ /* <-Disabled for more persise control of section sizing */
+}
+
+div{
+	min-height:0px;
+	min-width: 25px;
+	line-height:25px;
+	/* text-align:center; */
+	color: rgb(255,255,255);
+  
+}
+
+.inner{
+	/* width: 99%; */
+	/* max-width: 100px; */
+	margin:0 auto;
+	/* border: 1px solid rgb(0,255,255); */	/* This was taken out and placed in to individual sections */
+}						/* to have hidden spacings that blend into the background */
+
+/*
+Notes:
+	-
+*/
+
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Title; Top of page*/						    |
++---------------------------------------------------------------------------+
+.header{
+	/* No styling needed */
+
+}
+
+.upperTitle .inner{ /* Title = Flowing is Art */
+	height: 25px;
+	width: 150px;
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid rgb(0,255,255);
+}
+
+/*
+Notes:
+	-
+*/
+
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Title Spacing; Top of page */					    | 
++---------------------------------------------------------------------------+
+.upperTitleSpace{
+	/* No styling needed */
+}
+
+.upperTitleSpace .inner{
+	height: 2px;
+	width: 1px;
+}
+
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Navigation Bar; Top of page */					    |
++---------------------------------------------------------------------------+
+.upperNav{
+	/* No styling needed */
+}
+
+.upperNav .inner{ /* Menu on the top of the webpage */
+	height: 25px;
+	width: 920px;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid rgb(0,255,255);
+	word-spacing: 10px;
+} 
+
+.upperNav .inner a:link{ /* Link color for the menu on the top of the webpage */
+	color: white;
+	text-decoration: none;
+} 
+
+.upperNav .inner a:hover { /* Hover link color for the menu on the top of the webpage */
+    color: rgb(0,255,255);
+}
+
+/*
+Notes:
+	-
+*/
+
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Spacing; Top of page */						    | 
++---------------------------------------------------------------------------+
+.upperSpace{
+	/* No styling needed */
+}
+
+.upperSpace .inner{
+	height: 1px;
+	width: 1px;
+}
+
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Content Section */							    |
++---------------------------------------------------------------------------+
+.content{
+	/* No styling needed */
+}
+
+.content .inner{ /* Main paragraph section */
+	/* height: 824px; */
+	width: 850px;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid rgb(0,255,255);
+}
+
+.content .topContain{ /* Main paragraph section */
+	height: 200px;
+	width: 850px;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid rgb(0,255,255);
+}
+
+.content .centerContain{
+	border: 1px solid rgb(0,255,255);
+	height: 400px;
+	width: 850px;
+}
+
+.content .bottomContain{ /* Main paragraph section */
+	height: 210px;
+	width: 850px;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid rgb(0,255,255);
+}
+
+/* 
+Notes:
+	-Mess around with moving text to right or left.
+*/
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Spacing; Bottom of page */						    | 
++---------------------------------------------------------------------------+
+.bottomSpace{
+	/* No styling needed */
+}
+
+.bottomSpace .inner{
+	height: 2px;
+	width: 1px;
+}
+
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Navigation Bar; Bottom of page */					    |
++---------------------------------------------------------------------------+
+.lowerNav{
+	/* No styling needed */
+}
+
+.lowerNav .inner{ /* Menu on the bottom of the webpage */
+	height: 25px;
+	width: 920px;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid rgb(0,255,255);
+	word-spacing: 10px;
+} 
+
+.lowerNav .inner a:link{ /* Link color for the menu on the bottom of the webpage */
+	color: white;
+	text-decoration: none;
+} 
+
+.lowerNav .inner a:hover { /* Hover link color for the menu on the bottom of the webpage */
+    color: rgb(0,255,255);
+}
+
+/*
+Notes:
+	-
+*/
+
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Spacing; Bottom of page */						    | 
++---------------------------------------------------------------------------+
+.bottomTitleSpace{
+	/* No styling needed */
+}
+
+.bottomTitleSpace .inner{
+	height: 1px;
+	width: 1px;
+}
+
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+| /* Title; Bottom of page*/						    |
++---------------------------------------------------------------------------+
+.lowerTitle{
+	/* No styling needed */
+}
+
+.lowerTitle .inner{ /* Footer = Art is Flowing */
+	width: 150px;
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid rgb(0,255,255);
+}
+
+/*
+Notes:
+	-
+*/
+
