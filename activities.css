@@ -25,46 +25,8 @@
 }
 
 .content .centerContain{
-	border: 1px solid rgb(0,255,255);
+	border: 1px solid rgb(255,0,255);
 	height: 350px;
 	width: 848px;
 }
-
-.content .bottomContain{ /* Main paragraph section */
-	height: 0px;
-	width: 850px;
-	text-align: center;
-	font-size: 12px;
-	border: 0px solid rgb(0,255,255);	
-}
-
-.content .bottomContain p{
-	bottom: 0;
-}
-
-/* 
-Notes:
-	-Mess around with moving text to right or left.
-*/
-
-.content .centerContain .centerPiece{
-
-	border-radius: 1000px;
-	border: 1px solid rgb(0,255,255);
-}
-
-.content .centerContain .leftText{
-	float: left;
-	border: 0px solid rgb(0,255,255);
-	height: 400px;
-	width: 219px;
-}
-
-.content .centerContain .rightText{
-	float: right;
-	border: 0px solid rgb(0,255,255);
-	height: 400px;
-	width: 219px;
-}
-
 
